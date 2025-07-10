@@ -1,0 +1,94 @@
+Linux Administrator Course Content:
+=====================================
+
+Part 1: Core Linux Administration:
+---------------------------------
+Module 1: Introduction to Linux and Accessing the Command Line
+•	Introduction to Linux
+•	Log in to a Linux system and run simple commands using the shell
+Module 2: Managing Files from the Command Line
+•	Copy, move, create, delete, and organize files using the bash shell
+Module 3: Getting Help in Red Hat Enterprise Linux
+•	Use man, info, and online help systems
+•	Use Red Hat support utilities
+Module 4: Creating, Viewing, and Editing Text Files
+•	Use basic editors (nano, vim) to manage text files
+Module 5: Managing Local Linux Users and Groups
+•	Create and manage users and groups
+•	Administer local password policies
+Module 6: Controlling Access to Files with Linux File System Permissions
+•	Understand and apply standard Linux permissions (rwx)
+•	Use chmod, chown, umask
+Module 7: Configuring and Securing the OpenSSH Service
+•	Securely access the command line on remote systems using OpenSSH
+•	Configure SSH key-based authentication
+•	Transfer files using scp and rsync
+Module 8: Analyzing and Storing Logs
+•	Locate and interpret system log files for troubleshooting
+•	Use journalctl and rsyslog
+Module 9: Managing Networking
+•	Configure basic IPv4 networking
+•	Use nmcli, ip, and hostnamectl
+Module 10: Archiving and Copying Files Between Systems
+•	Archive using tar, gzip, bzip2
+•	Copy files with scp, rsync
+Module 11: Installing and Updating Software Packages
+•	Manage software using yum, dnf, and repositories
+Module 12: Accessing Linux File Systems
+•	Mount, unmount, and inspect file systems using mount, df, du
+Module 13: Using Virtualized Systems
+•	Create and use VMs using KVM and libvirt tools (virt-manager, virsh)
+
+
+Part 2: Advanced Linux Administration:
+--------------------------------------
+Module 1: Automating Installation with Kickstart
+•	Create and deploy Kickstart-based automated installations
+Module 2: Using Regular Expressions with grep
+•	Write and use regex patterns to find data in text
+Module 3: Creating and Editing Text Files with vim
+•	Master vim editing modes, navigation, and saving
+Module 4: Scheduling Future Linux Tasks
+•	Use cron, at, and systemd timers for scheduling tasks
+Module 5: Managing Priority of Linux Processes
+•	Use nice, renice, and top to manage process priorities
+Module 6: Controlling Access with Access Control Lists (ACL)
+•	Set and manage POSIX ACLs on files and directories
+Module 7: Managing SELinux Security
+•	View and configure SELinux modes, booleans, and contexts
+Module 8: Adding Disks, Partitions, and File Systems
+•	Create and manage partitions using fdisk, parted, mkfs
+Module 9: Managing Logical Volume Management (LVM)
+•	Create and resize LVM volumes
+•	Use pvcreate, vgcreate, lvcreate, and lvextend
+Module 10: Accessing Network Storage with NFS
+•	Configure and mount (secure) NFS shares
+Module 11: Accessing Network Storage with SMB
+•	Use autofs and manual methods to mount/unmount SMB/CIFS shares
+Module 12: Controlling and Troubleshooting the Boot Process
+•	Understand GRUB2, systemd, and rescue/emergency targets
+Module 13: Limiting Network Communication with firewalld
+•	Configure firewall rules using firewalld and zones
+
+
+Part 3: Extra / Advanced Content:
+------------------------------------
+1. RAID Configuration using LVM
+2. Running Containers
+•	2.1: Introduction to Containers and Podman
+•	2.2: Creating and Managing Containers
+•	2.3: Working with Container Image Registries
+•	2.4: Managing Container Lifecycle (start, stop, remove, persist)
+3. Working with Bash Scripting
+4. OS Upgrades
+•	Upgrade from RHEL 7 to RHEL 8
+•	Upgrade from RHEL 8 to RHEL 9
+5. Automation with Ansible
+•	5.1: What is Ansible?
+•	5.2: Working with inventory and ansible.cfg
+•	5.3: Running Ad-hoc Commands
+•	5.4: Creating and Executing Basic Playbooks
+6. DNS Configuration
+7. Migrating VMware VMs to Cloud
+8. Introduction to Public Cloud
+•	Overview of AWS, GCP, and Azure basics (IaaS, VM provisioning, CLI access)
